@@ -9,3 +9,4 @@ Notes:
 - This program does not make things easier when changing to a different network, like changing from 192.168.0.XXX to 10.178.0.XXX Delete ipscanner_config.json if you do, then run this program again.
 - Tested on Mac with SDK 0.5.0, untested on Linux and Windows.
 - Some error messages can occur during scanning ('ping: sendto: No route to host'), they have no effect on the result.
+- Sometimes the MAC address is not picked up, unable to determine what causes this so far.
